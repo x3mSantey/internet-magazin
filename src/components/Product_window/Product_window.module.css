@@ -1,0 +1,66 @@
+@font-face{
+	font-family: GothamNarrSSm;
+    src: url(../../Fonts/GothamNarrSSm-Book.otf);
+}
+
+.item{
+    position: relative;
+    left: 50%;
+
+    width: 250px;
+    height: 350px;
+
+    margin-left: -125px;
+}
+.img{
+    position: relative;
+    left: 50%;
+    top: 5%;
+
+    width: 174px;
+    height: 245px;
+
+    margin-left: -87px;
+
+    background-image: url(../img/1261.jpg);
+    background-position: center;
+    background-size: cover;
+}
+h5{
+    margin-top: 25px;
+    margin-bottom: 15px;
+
+    text-align: center;
+    
+	font-family: GothamNarrSSm;
+    font-size: 16px;
+    font-weight: inherit;
+}
+.dash{
+    position: relative;
+    left: 35%;
+
+    width: 30%;
+    height: 2px;
+
+
+    background-color: #1D1F25;
+}
+.price{
+    margin-top: 10px;
+
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.item:hover{
+    border: 1px solid #1D1F25;
+
+    width: 248px;
+    height: 348px;
+
+    box-shadow: 0 0 30px #1D1F25;
+
+    cursor: pointer;
+}

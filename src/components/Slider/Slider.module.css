@@ -1,0 +1,89 @@
+.conteiner{
+    display: grid;
+
+    grid-template-areas:
+    'arrow_left block_items arrow_right'
+    'scroll_line scroll_line scroll_line';
+    grid-template-columns: 1fr 10fr 1fr;
+
+    position: relative;
+
+    width: 100%;
+    height: 400px;
+}
+.block_items{
+    display: grid;
+
+    grid-template-columns: repeat(4, 25%);
+
+    grid-area: block_items;
+
+    position: relative;
+
+    width: 100%;
+    height: 400px;
+}
+.arrow_left{
+    grid-area: arrow_left;
+
+    position: relative;
+    top: 15px;
+
+    width: 100%;
+    height: 300px;
+    opacity: 0.6;
+}
+.left_img{
+    position: relative;
+    top: 125px;
+    left: 25px;
+
+    width: 60px;
+    height: 60px;
+
+    background-image: url(../img/arrow_left.svg);
+    background-position: center;
+    background-size: cover;
+
+    cursor: pointer;
+}
+.arrow_right{
+    grid-area: arrow_right;
+
+    position: relative;
+    top: 15px;
+
+    width: 100%;
+    height: 300px;
+    opacity: 0.6;
+}
+.right_img{
+    position: relative;
+    top: 125px;
+    left: 25px;
+
+    width: 60px;
+    height: 60px;
+
+    background-image: url(../img/arrow_right.svg);
+    background-position: center;
+    background-size: cover;
+    
+    cursor: pointer;
+}
+
+
+.arrow_left:hover{
+    opacity: 1;
+}
+.left_img:hover{
+    box-shadow: 0 0 15px #1D1F25;
+    border-radius: 50%;
+}
+.arrow_right:hover{
+    opacity: 1;
+}
+.right_img:hover{
+    box-shadow: 0 0 15px #1D1F25;
+    border-radius: 50%;
+}

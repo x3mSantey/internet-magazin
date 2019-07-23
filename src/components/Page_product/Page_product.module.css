@@ -1,0 +1,113 @@
+@font-face{
+	font-family: GothamNarrSSm;
+    src: url(../../Fonts/GothamNarrSSm-Book.otf);
+}
+
+.conteiner{
+    display: grid;
+
+    grid-template-columns: 634px 50px 625px;
+
+    position: relative;
+    left: 50%;
+    top: 145px;
+
+    width: 1310px;
+    height: 1000px;
+
+    margin-left: -630px;
+
+    background-color: aquamarine;
+}
+.block_img{
+    display: grid;
+
+    grid-template-columns: 74px 48px 512px;
+
+    width: 634px;
+    height: 680px;
+}
+.gallery{
+    display: grid;
+    
+    grid-template-rows: 15px 30px 95px 25px 95px 25px 95px 25px 95px 165px 15px;
+}
+.up{
+    grid-row: 1;
+
+    width: 74px;
+    height: 15px;
+
+    background-color: red;
+}
+.sideways_img{
+    grid-row: 3;
+
+    width: 72px;
+    height: 96px;
+
+    background-image: url(https://via.placeholder.com/72x96);
+}
+.bigPlan_img{
+    grid-row: 5;
+
+    width: 74px;
+    height: 96px;
+
+    background-image: url(https://via.placeholder.com/72x96);
+}
+.behind_img{
+    grid-row: 7;
+    
+    width: 74px;
+    height: 96px;
+
+    background-image: url(https://via.placeholder.com/72x96);
+}
+.front_img{
+    grid-row: 9;
+
+    width: 74px;
+    height: 96px;
+
+    background-image: url(https://via.placeholder.com/72x96);
+}
+.down{
+    grid-row: 11;
+
+    width: 74px;
+    height: 15px;
+
+    background-color: red;
+}
+.big_img{
+    grid-column: 3;
+    grid-row: 1/5;
+
+    width: 512px;
+    height: 680px;
+
+    background-image: url(https://via.placeholder.com/512x680);
+}
+.information{
+    grid-column: 3;
+    width: 100%;
+}
+.name{  
+	font-family: GothamNarrSSm;    
+}
+.band{
+    width: 100%;
+    height: 5px;
+
+    background-color: #E9E9E9;
+}
+.lite_band{
+    width: 100%;
+    height: 2px;
+
+    background-color: #E9E9E9;
+}
+.price{
+    font-size: 32px;
+}

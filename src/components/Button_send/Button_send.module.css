@@ -1,0 +1,27 @@
+@font-face{
+	font-family: GothamNarrSSm;
+    src: url(../../Fonts/GothamNarrSSm-Book.otf);
+}
+
+.button{
+    position: relative;
+
+    width: 130px;
+    height: 37px;
+
+    background-color: #1D1F25;
+
+    border: none;
+    outline: none;
+
+    font-size: 16px;
+	font-family: GothamNarrSSm;
+
+    cursor: pointer;
+    color: #fff;
+}
+.button:hover{
+    border: 1px solid #1D1F25;
+    color: #1D1F25;
+    background-color: #E9E9E9;
+}

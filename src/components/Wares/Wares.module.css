@@ -1,0 +1,45 @@
+.conteiner{
+    display: grid;
+
+    grid-template-columns: 250px 1000px;
+    
+    position: relative;
+    top: 150px;
+    left: 50%;
+
+    width: 1200px;
+    height: 1250px;
+
+    margin-left: -700px;
+}
+.sort{
+    grid-column: 1;
+    
+    position: relative;
+}
+.products{
+    grid-column: 2;
+
+    position: relative;
+    left: 50px;
+}
+h1{
+    margin: 10px 0 10px 0;
+    color: #1D1F25;
+}
+.band{
+    height: 5px;
+
+    background-color: #E9E9E9;
+}
+.ware_block{
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+    position: relative;
+    top: 50px;
+
+    height: 1050px;
+}

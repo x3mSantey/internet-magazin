@@ -1,0 +1,134 @@
+@font-face{
+	font-family: GothamNarrSSm;
+    src: url(../../Fonts/GothamNarrSSm-Book.otf);
+}
+@font-face{
+	font-family: ljk_Serpentine_Sans_ICG_Bold;
+    src: url(../../Fonts/ljk_Serpentine_Sans_ICG_Bold.otf);
+}
+
+.conteiner{
+    display:  grid;
+
+    grid-template-columns: 4fr 3fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+
+    position: relative;
+
+    width: 100%;
+    height: 800px;
+}
+.block1{
+    grid-row: 1/4;
+
+    position: relative;
+
+    width: 100%;
+    height: 100%;
+}
+.big_img1{
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+
+    width: 625px;
+    height: 560px;
+
+    margin-left: -312.5px;
+    margin-top: -280px;
+
+    background-image:  url(https://via.placeholder.com/625x560);
+    background-position: center;
+    background-size: cover;
+}
+.small_img1{
+    position: absolute;
+    left: 400px;
+
+    width: 310px;
+    height: 245px;
+
+    box-shadow: -15px 15px 20px 0px rgba(0,0,0,0.27);
+
+    background-image:  url(https://via.placeholder.com/310x245);
+    background-position: center;
+    background-size: cover;
+}
+.big_logo{
+    grid-column: 2/ span 3;
+    grid-row: 1;
+
+    width: 100%;
+    height: 100%;
+
+    z-index: 998;
+
+    background-color: aliceblue;
+}
+.text_block{
+    width: 560px;
+    height: 100%;
+}
+.text_block h4{
+    position: relative;
+    top: 150px;
+
+    width: 300px;
+    padding: 0 0 0 10px;
+
+    text-align: left;
+    font-family: ljk_Serpentine_Sans_ICG_Bold;
+    font-size: 28px;
+
+    color: #1D1F25;
+}
+.text_block p{
+    position: relative;
+    top: 150px;
+
+    width: 520px;
+    height: 250px;
+    
+    padding: 0 0 0 10px;
+	font-family: GothamNarrSSm;
+    
+    color: #1D1F25;
+}
+.block2{
+    grid-row: 1/4;
+    grid-column: 3/7;
+
+    position: relative;
+
+    width: 100%;
+    height: 100%;
+}
+.big_img2{
+    position: relative;
+    left: 50%;
+    top: 50%;
+
+    width: 560px;
+    height: 600px;
+
+    margin-top: -320px;
+    margin-left: -280px;
+
+    background-image:  url(https://via.placeholder.com/560x600);
+    background-position: center;
+    background-size: cover;
+}
+.small_img2{
+    position: absolute;
+    top: 450px;
+
+    width: 625px;
+    height: 290px;
+
+    box-shadow: -15px 15px 20px 0px rgba(0,0,0,0.27);
+
+    background-image:  url(https://via.placeholder.com/625x290);
+    background-position: center;
+    background-size: cover;
+}
